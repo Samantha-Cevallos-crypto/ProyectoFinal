@@ -3,7 +3,10 @@
 
 ## Integrantes del Grupo
 * Cevallos Mendoza Samantha Nikole
-* Cristhian Isaac Estrella Espinoza
+# - Laura Fernanda Guillén Vargas
+# - Cristhian Isaac Estrella Espinoza
+# - Evelyn Noemi Burbano Mora
+# - Janeth Maria Verdezoto García
 
 **Jornada:** Vespertina  
 **Asignatura:** Programación Orientada a Objetos  
