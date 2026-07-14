@@ -7,8 +7,12 @@
 
 **Jornada:** Vespertina  
 **Asignatura:** Programación Orientada a Objetos  
+---
+### Enlace del video demostrativo
+https://1drv.ms/f/c/5ee4c4ee5e6f75b9/IgDm_DdzYocDT6sKB8ZYfNk6AS710tMpul3vcbnP__zeQ1c
 
 ---
+
 
 ## Descripción General del Sistema
 Este sistema es una aplicación de escritorio diseñada bajo el patrón arquitectónico MVC (Modelo-Vista-Controlador) que gestiona el registro de clientes y los servicios contratados en un gimnasio. El software permite centralizar la información de los usuarios vinculados a un plan específico (Gimnasio, personal trainning , membresia anual), garantizando la persistencia de los datos en un entorno relacional, la integridad de la información mediante validaciones estrictas y una experiencia de usuario fluida y libre de errores en la persistencia.
@@ -82,8 +86,15 @@ Además, el sistema es tolerante a fallos gracias a la implementación de bloque
 | `servicio` | VARCHAR / TEXT | Not Null - Nombre del plan seleccionado |
 | `descripcion` | TEXT | Not Null - Detalles del servicio |
 | `precio` | DECIMAL / FLOAT | Not Null - Valor numérico no negativo |
+```
+ESTADO FINAL
 
----
+El proyecto se encuentra 100% Funcional y cumple con todos los requerimientos establecidos para la evaluación del segundo parcial.
 
-### Enlace del video demostrativo
-https://1drv.ms/f/c/5ee4c4ee5e6f75b9/IgDm_DdzYocDT6sKB8ZYfNk6AS710tMpul3vcbnP__zeQ1c
+Se ha completado con éxito la integración del patrón arquitectónico MVC, logrando que el controlador (PersonaServicio) gestione de forma óptima el flujo de datos entre la interfaz gráfica en PySide6 y la persistencia en el backend a través de la clase ServicioDAO. Las operaciones de creación, lectura, actualización y eliminación (CRUD) operan de manera síncrona con la base de datos ServicioGimnasio.
+
+Además, el sistema es tolerante a fallos gracias a la implementación de bloques de control de excepciones que evitan cierres inesperados ante errores de duplicidad de llaves primarias o formatos de entrada incorrectos.
+
+
+
+
